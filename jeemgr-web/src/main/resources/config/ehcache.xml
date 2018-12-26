@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+
+<!-- 	<cacheManagerPeerProviderFactory  -->
+<!-- 	     class="net.sf.ehcache.distribution.RMICacheManagerPeerProviderFactory"  -->
+<!-- 	     properties="peerDiscovery=manual,rmiUrls=//10.1.17.160:40001/shiro-activeSessionCache"/> -->
+
+<!-- 	<cacheManagerPeerListenerFactory -->
+<!-- 		class="net.sf.ehcache.distribution.RMICacheManagerPeerListenerFactory" -->
+<!-- 		properties="hostName=localhost, port=40001, socketTimeoutMillis=2000" /> -->
+
+	<defaultCache maxEntriesLocalHeap="0" eternal="false"
+		timeToIdleSeconds="1200" timeToLiveSeconds="1200">
+	</defaultCache>
+	
+	
+  <!-- overflowToDisk="true" - 这确保当你溢出进程内存时，会话不丢失且能够被序列化到磁盘上。  -->
+  <!-- eternal="true" - 确保缓存项（Session 实例）永不过期或被缓存自动清除。这是很有必要的，
+    	 因为Shiro 基于计划过程完成自己的验证。如果我们关掉这项，缓存将会在Shiro 
+    	 不知道的情况下清扫这些Sessions，这可能引起麻烦。-->
+
+	<cache name="shiro-activeSessionCache"  
+       maxEntriesLocalHeap="10000"          
+       overflowToDisk="false" 
+       eternal="false" 
+       diskPersistent="false" 
+       timeToLiveSeconds="0" 
+       timeToIdleSeconds="0"
+       statistics="true">
+<!--        <cacheEventListenerFactory  -->
+<!-- 			class="net.sf.ehcache.distribution.RMICacheReplicatorFactory"  -->
+<!-- 			properties="replicateAsynchronously=true, replicatePuts=true, replicateUpdates=true, -->
+<!-- 			replicateUpdatesViaCopy=false, replicateRemovals=true "/> -->
+    </cache>
+    
+</ehcache>
