@@ -1,0 +1,685 @@
+.icon-user {
+	background: url('icons/user.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.icon-overlays{
+	background:url('icons/overlays.png') no-repeat center center;
+}
+
+/********sunyang add***************/
+.icon-index{
+	background:url('icons/application_home.png') no-repeat center center;
+}
+.icon-tkta{
+	background:url('icons/application_side_boxes.png') no-repeat center center;
+}
+.icon-pending{
+	background:url('icons/application_side_tree.png') no-repeat center center;
+}
+
+
+
+/********sunyang add***************/
+.icon-blank{
+	background:url('icons/blank.gif') no-repeat center center;
+}
+.icon-add{
+	background:url('icons/edit_add.png') no-repeat center center;
+}
+.icon-edit{
+	background:url('icons/pencil.png') no-repeat center center;
+}
+.icon-remove{
+	background:url('icons/edit_remove.png') no-repeat center center;
+}
+.icon-save{
+	background:url('icons/filesave.png') no-repeat center center;
+}
+.icon-cut{
+	background:url('icons/cut.png') no-repeat center center;
+}
+.icon-ok{
+	background:url('icons/ok.png') no-repeat center center;
+}
+.icon-no{
+	background:url('icons/no.png') no-repeat center center;
+}
+.icon-cancel{
+	background:url('icons/cancel.png') no-repeat center center;
+}
+.icon-reload{
+	background:url('icons/reload.png') no-repeat center center;
+}
+.icon-search{
+	background:url('icons/search.png') no-repeat center center;
+}
+.icon-print{
+	background:url('icons/print.png') no-repeat center center;
+}
+.icon-help{
+	background:url('icons/help.png') no-repeat center center;
+}
+.icon-undo{
+	background:url('icons/undo.png') no-repeat center center;
+}
+.icon-redo{
+	background:url('icons/redo.png') no-repeat center center;
+}
+.icon-back{
+	background:url('icons/back.png') no-repeat center center;
+}
+.icon-sum{
+	background:url('icons/sum.png') no-repeat center center;
+}
+.icon-tip{
+	background:url('icons/tip.png') no-repeat center center;
+}
+
+.icon-mini-add{
+	background:url('icons/mini_add.png') no-repeat center center;
+}
+.icon-mini-edit{
+	background:url('icons/mini_edit.png') no-repeat center center;
+}
+.icon-mini-refresh{
+	background:url('icons/mini_refresh.png') no-repeat center center;
+}
+.icon-blank {
+	background: url('icons/blank.gif') no-repeat;
+}
+
+
+.icon-add {
+	background: url('icons/ico_add.gif') no-repeat;
+}
+
+.icon-edit {
+	background: url('icons/ico_edt.gif') no-repeat;
+}
+
+.icon-detail {
+	background: url('icons/ico_table.gif') no-repeat;
+}
+
+.icon-sys {
+	background: url('icons/directory.png') no-repeat;
+}
+
+.icon-nav,.icon-table {
+	background: url('icons/ico_table.gif') no-repeat;
+}
+
+.icon-remove {
+	background: url('icons/edit_remove.png') no-repeat;
+}
+
+.icon-save {
+	background: url('icons/filesave.png') no-repeat;
+}
+
+.icon-cut {
+	background: url('icons/cut.png') no-repeat;
+}
+
+.icon-set {
+	background: url('icons/ico_set.png') no-repeat;
+}
+
+.icon-client {
+	background: url('icons/ico_client.gif') no-repeat;
+}
+
+.icon-upload {
+	background: url('icons/ico_Upload.png') no-repeat;
+}
+
+.icon-job {
+	background: url('icons/ico_job.gif') no-repeat;
+}
+
+.icon-users {
+	background: url('icons/ico_users.gif') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.icon-users-disabled {
+	background: url('icons/ico_users_disabled.gif') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.icon-ok {
+	background: url('icons/ok.png') no-repeat;
+}
+
+.icon-yes {
+	background: url('icons/icon_approve.png') no-repeat;
+}
+
+.icon-no {
+	background: url('icons/ico_unapprove.png') no-repeat;
+}
+
+.icon-prev {
+	background: url('icons/ico_prev.png') no-repeat;
+}
+
+.icon-next {
+	background: url('icons/ico_next.png') no-repeat;
+}
+
+.icon-download {
+	background: url('icons/ico_download.gif') no-repeat;
+}
+
+.icon-cancel {
+	background: url('icons/ico_delete.gif') no-repeat;
+}
+
+.icon-reload {
+	background: url('icons/ico_refresh.gif') no-repeat;
+}
+
+.icon-search,.icon-query {
+	background: url('icons/search.png') no-repeat;
+}
+
+.icon-statistics {
+	background: url('icons/ico_statistics.png') no-repeat;
+}
+
+.icon-print {
+	background: url('icons/print.png') no-repeat;
+}
+
+.icon-help {
+	background: url('icons/help.png') no-repeat;
+}
+
+.icon-email {
+	background: url('icons/email.png') no-repeat;
+}
+.icon-logout {
+	background: url('icons/ico_prev.png') no-repeat;
+}
+
+.icon-air {
+	background: url('icons/an_ticket.gif') no-repeat;
+}
+.icon-acca-tap {
+	background: url('icons/travelsky.png') no-repeat;
+}
+.icon-acca{
+	background: url('../img/logo/travelsky.png') no-repeat;
+}
+.icon-undo {
+	background: url('icons/undo.png') no-repeat;
+}
+
+.icon-redo,.icon-reset {
+	background: url('icons/redo.png') no-repeat;
+}
+
+.icon-back {
+	background: url('icons/back.png') no-repeat;
+}
+
+.icon-sum {
+	background: url('icons/sum.png') no-repeat;
+}
+
+.icon-tip {
+	background: url('icons/tip.png') no-repeat !important;
+}
+
+.icon-export {
+	background: url('icons/table_go.png') no-repeat;
+}
+
+.icon-start {
+	background: url('icons/ico_start.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.icon-start-disabled {
+	background: url('icons/ico_start_disabled.png') no-repeat;
+}
+
+.icon-stop {
+	background: url('icons/ico_stop.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.icon-stop-disabled {
+	background: url('icons/ico_stop_disabled.png') no-repeat;
+}
+
+.icon-mini-add {
+	background: url('icons/mini_add.png') no-repeat 2px 2px;
+}
+
+.icon-mini-edit {
+	background: url('icons/mini_edit.png') no-repeat 2px 2px;
+}
+
+.icon-mini-refresh {
+	background: url('icons/mini_refresh.png') no-repeat 3px 2px;
+}
+
+.icon-favorites {
+	background: url('icons/favorites.gif') no-repeat;
+}
+
+.icon-flag_red {
+	background: url('icons/flag_red.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.icon-password {
+	background: url('icons/password.gif') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.icon-code {
+	background: url('icons/key_go.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.icon-master {
+	background: url('icons/book_addresses.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.icon-data {
+	background: url('icons/server_chart.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.icon-difference {
+	background: url('icons/plugin_edit.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.icon-refunded_difference {
+	background: url('icons/plugin_go.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.icon-accounting {
+	background: url('icons/coins.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+.icon-check {
+	background: url('icons/money_yen.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+.icon-sk {
+	background: url('icons/money_add.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+.icon-sd {
+	background: url('icons/money.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+.icon-dollar {
+	background: url('icons/money_dollar.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+.icon-listnum {
+	background: url('icons/text_list_numbers.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+.icon-report {
+	background: url('icons/chart_bar_edit.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+.folder-table {
+	background: url('icons/folder_table.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.house {
+	background: url('icons/house.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.ico-download {
+	background: url('icons/ico_download.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.folder-user {
+	background: url('icons/folder_user.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+.shield {
+	background: url('icons/shield.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.table-row-insert {
+	background: url('table_row_insert.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+.chart-bar {
+	background: url('chart_bar.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+.chart-pie {
+	background: url('chart_pie.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+.an-ticket {
+	background: url('an_ticket.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+.folder-wrench {
+	background: url('icons/folder_wrench.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+.icon-job{
+	background:url('icons/cog.png') no-repeat ;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+
+.icon-system {
+	background: url('icons/ico_set.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.icon-refuse {
+	background: url('icons/coins_delete.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.icon-masterEdit {
+	background: url('icons/table_edit.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.icon-multiple {
+	background: url('icons/table_multiple.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.icon-relationship {
+	background: url('icons/table_relationship.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.icon-key {
+	background: url('icons/table_key.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.icon-job_refresh {
+	background: url('icons/table_refresh.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+.ico-Upload-AMEX {
+	background: url('icons/ico_Upload.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
+}
+.ico-arrow-up {
+	background: url('icons/arrow_up.png') no-repeat center center;
+}
+
+.icon-confirm{
+	background:url('icons/accept.png') no-repeat;
+}
+.icon-history{
+	background:url('icons/star.png') no-repeat;
+}
+.icon-airline{
+	background:url('icons/an_ticket.gif') no-repeat;
+}
+.icon-funding{
+	background:url('icons/coins.png') no-repeat;
+}
+.icon-chart {
+	background: url('icons/chart_bar.png') no-repeat;
+}
+.icon-billing {
+	background: url('icons/paste_plain.png') no-repeat;
+}
+.icon-funds {
+	background: url('icons/report_edit.png') no-repeat;
+}
+.icon-tolerance {
+	background: url('icons/basket.png') no-repeat;
+}
+.icon-uatp_air {
+	background: url('icons/calendar_view_week.png') no-repeat;
+}
+.icon-iso {
+	background: url('icons/bullet_red.png') no-repeat;
+}
+.icon-area_agents {
+	background: url('icons/group_key.png') no-repeat;
+}
+.icon-billed {
+	background: url('icons/ico_statistics.png') no-repeat;
+}
+.icon-bill {
+	background: url('icons/date_edit.png') no-repeat;
+}
+.icon-report_No_pie {
+	background: url('icons/chart_line.png') no-repeat;
+}
+.icon-fileQuery {
+	background: url('icons/cd.png') no-repeat;
+}
+.icon-BillQuery {
+	background: url('icons/color_wheel.png') no-repeat;
+}
+.icon-ticketQuery {
+	background: url('icons/hourglass.png') no-repeat;
+}
+.icon-tick {
+	background: url('icons/tick.png') no-repeat;
+}
+.icon-tickCircle {
+	background: url('icons/tick_circle.png') no-repeat;
+}
+.icon-billHandle {
+	background: url('icons/layout_content.png') no-repeat;
+}
+.icon-format_error {
+	background: url('icons/table_delete.png') no-repeat;
+}
+.icon-data_error {
+	background: url('icons/database_delete.png') no-repeat;
+}
+.icon-creditPoundage {
+	background: url('icons/medal_gold_1.png') no-repeat;
+}
+.icon-clearPrice {
+	background: url('icons/keyboard.png') no-repeat;
+}
+.icon-exchangeRate {
+	background: url('icons/money.png') no-repeat;
+}
+.icon-cardTrader_trader {
+	background: url('icons/newspaper.png') no-repeat;
+}
+.icon-cardTrader_card {
+	background: url('icons/vcard.png') no-repeat;
+}
+.icon-cardTrader_info {
+	background: url('icons/book.png') no-repeat;
+}
+.icon-onlineQuery {
+	background: url('icons/folder_magnify.png') no-repeat;
+}
+.icon-AMEX {
+	background: url('icons/font.png') no-repeat;
+}
+.icon-usbank {
+	background: url('icons/mouse.png') no-repeat;
+}
+.icon-arc {
+	background: url('icons/rosette.png') no-repeat;
+}
+.icon-worldPay {
+	background: url('icons/page_white_ruby.png') no-repeat;
+}
+.icon-worldPay_match {
+	background: url('icons/chart_curve.png') no-repeat;
+}
+.icon-reason {
+	background: url('icons/asterisk_orange.png') no-repeat;
+}
+.icon-actionCode {
+	background: url('icons/sport_basketball.png') no-repeat;
+}
+.icon-amexchart {
+	background: url('icons/chart_pie.png') no-repeat;
+}
+.icon-Usbfund_chart {
+	background: url('icons/chart_bar_delete.png') no-repeat;
+}
+.icon-Usbsale_chart {
+	background: url('icons/chart_bar_add.png') no-repeat;
+}
+.icon-masoffice {
+	background: url('icons/sport_football.png') no-repeat;
+}
+.icon-masSysFilecontrol {
+	background: url('icons/world.png') no-repeat;
+}
+.icon-link {
+	background: url('icons/drive_link.png') no-repeat;
+}
+.icon-usbank-match {
+	background: url('icons/shape_move_forwards.png') no-repeat;
+}
+.icon-receivable-match {
+	background: url('icons/report.png') no-repeat;
+}
+.icon-drive-edit {
+	background: url('icons/drive_edit.png') no-repeat;
+}
+.icon-feed-edit {
+	background: url('icons/feed_edit.png') no-repeat;
+}
+.icon-search{	
+	background: url('icons/ico_search.png') no-repeat;
+}
+.icon-layout-header{	
+	background: url('icons/layout_header.png') no-repeat;
+}
