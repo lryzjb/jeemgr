@@ -102,9 +102,9 @@
 
 	<scm>
 		<tag>1.0.0</tag>
-		<connection>http://10.1.28.165:8081/nexus/content/repositories/releases</connection>
-		<url>http://10.1.28.165:8888/common/jeemgr.git</url>
-		<developerConnection>scm:git:http://10.1.28.165:8888/common/jeemgr.git</developerConnection>
+		<connection>http://10.1.20.100:8081/nexus/content/repositories/releases</connection>
+		<url>http://10.1.01.01:8888/common/jeemgr.git</url>
+		<developerConnection>scm:git:http://10.1.01.01:8888/common/jeemgr.git</developerConnection>
 	</scm>
 
 	<build>
@@ -129,7 +129,7 @@
 					<tagNameFormat>@{project.version}</tagNameFormat>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 					<useReleaseProfile>false</useReleaseProfile>
-					<username>zhangjianbin</username>
+					<username>username</username>
 					<password>12345678</password>
 					<tagBase>${project.artifactId}-${project.version}</tagBase>
 					<goals>-f pom.xml deploy</goals>
@@ -168,11 +168,11 @@
 	<distributionManagement>
 		<repository>
 			<id>releases</id>
-			<url>http://10.1.28.165:8081/nexus/content/repositories/releases</url>
+			<url>http://10.1.20.100:8081/nexus/content/repositories/releases</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
-			<url>http://10.1.28.165:8081/nexus/content/repositories/snapshots</url>
+			<url>http://10.1.20.100:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 
