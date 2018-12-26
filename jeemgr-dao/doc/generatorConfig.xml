@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+    <context id="context1" defaultModelType="flat" targetRuntime="MyBatis3">
+        <plugin type="org.mybatis.generator.plugins.MapperConfigPlugin">
+            <property name="targetPackage" value="com.dovepay.jeemgr.dao.sqlmap"/>
+            <property name="targetProject" value="jeemgr-dao/src/main/resources"/>
+        </plugin>
+        <plugin type="org.mybatis.generator.plugins.PaginationDb2Plugin" />
+        <jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver" connectionURL="jdbc:oracle:thin:@10.1.28.174:1521:epaydb" userId="epaysch"
+            password="epaysch" />
+        <javaModelGenerator targetPackage="com.dovepay.jeemgr.dao.model" targetProject="jeemgr-dao/src/main/java">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+        <sqlMapGenerator targetPackage="com.dovepay.jeemgr.dao.sqlmap" targetProject="jeemgr-dao/src/main/resources">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+        <javaClientGenerator targetPackage="com.dovepay.jeemgr.dao.mapper" targetProject="jeemgr-dao/src/main/java" type="XMLMAPPER">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+        
+        <table schema="" tableName="T_JEEMGR_SYS_USER" enableSelectByExample="true" enableDeleteByExample="true" enableCountByExample="true"
+            enableUpdateByExample="true">
+        </table>
+        <table schema="" tableName="T_JEEMGR_SYS_ROLE" enableSelectByExample="true" enableDeleteByExample="true" enableCountByExample="true"
+            enableUpdateByExample="true">
+        </table>
+        <table schema="" tableName="T_JEEMGR_SYS_USER_ROLE" enableSelectByExample="true" enableDeleteByExample="true" enableCountByExample="true"
+            enableUpdateByExample="true">
+        </table>
+        <table schema="" tableName="T_JEEMGR_SYS_MENU" enableSelectByExample="true" enableDeleteByExample="true" enableCountByExample="true"
+            enableUpdateByExample="true">
+        </table>
+        <table schema="" tableName="T_JEEMGR_SYS_ROLE_MENU" enableSelectByExample="true" enableDeleteByExample="true" enableCountByExample="true"
+            enableUpdateByExample="true">
+        </table>
+        
+    </context>
+</generatorConfiguration>
